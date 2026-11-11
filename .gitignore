@@ -1,0 +1,75 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+./myenv/
+myenv/
+venv/
+env/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+dataset/
+datasets/
+data/
+test_images/
+*.zip
+*.rar
+*.7z
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Keep the trained model in Git only if intentionally required
+
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated prediction files
+# Uncomment if predictions should not be committed
+# submission/*.csv
