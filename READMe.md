@@ -185,7 +185,7 @@ For competition evaluation, use the official evaluator and its specified mAP@50:
 The trained checkpoint is:
 
 ```text
-weights/best.pt
+best.pt
 ```
 
 This file contains the trained YOLO model weights and is required for inference.
